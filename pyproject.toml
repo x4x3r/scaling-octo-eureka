@@ -1,0 +1,17 @@
+[build-system]
+requires = ["poetry-core>=1.5.1"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "movie-analysis"
+version = "0.1.0"
+description = "Python program for movie analysis"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^2"
+numpy = "^1"
+notebook = "^6"
+pyspark = "^3"
+
